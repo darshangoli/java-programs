@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cafeteria Layout</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+
+  .cafeteria {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 tables per row */
+    gap: 30px 20px; /* spacing between tables */
+  }
+
+  .table-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .table {
+    width: 120px;
+    height: 60px;
+    background-color: #f0a500;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+
+  .chair {
+    width: 20px;
+    height: 20px;
+    background-color: #00aaff;
+    margin: 2px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .chair-row {
+    display: flex;
+    justify-content:space-between;
+  }
+
+  .selected {
+    background-color: #a51c1c !important;
+  }
+</style>
+</head>
+<body>
+
+<h2>Cafeteria Layout (4 tables × 3 rows)</h2>
+<div class="cafeteria" id="cafeteria"></div>
+
+<script>
+  const cafeteria = document.getElementById('cafeteria');
+
+  function createTable(id) {
+    const tableContainer = document.createElement('div');
+    tableContainer.className = 'table-container';
+    tableContainer.dataset.tableId = id;
+
+    // Top chairs
+    const topRow = document.createElement('div');
+    topRow.className = 'chair-row';
+    for (let i = 0; i < 3; i++) {
+      const chair = document.createElement('div');
+      chair.className = 'chair';
+      chair.dataset.chairId = `t${id}-c${i}`;
+      chair.addEventListener('click', chairClick);
+      topRow.appendChild(chair);
+    }
+
+    // Table
+    const table = document.createElement('div');
+    table.className = 'table';
+    table.dataset.tableId = id;
+    table.addEventListener('click', tableClick);
+
+    // Bottom chairs
+    const bottomRow = document.createElement('div');
+    bottomRow.className = 'chair-row';
+    for (let i = 3; i < 6; i++) {
+      const chair = document.createElement('div');
+      chair.className = 'chair';
+      chair.dataset.chairId = `t${id}-c${i}`;
+      chair.addEventListener('click', chairClick);
+      bottomRow.appendChild(chair);
+    }
+
+    tableContainer.appendChild(topRow);
+    tableContainer.appendChild(table);
+    tableContainer.appendChild(bottomRow);
+    cafeteria.appendChild(tableContainer);
+  }
+
+  // 4 tables per row × 3 rows = 12 tables
+  let tableId = 1;
+  for (let row = 0; row < 3; row++) {
+    for (let col = 0; col < 4; col++) {
+      createTable(tableId);
+      tableId++;
+    }
+  }
+
+  function chairClick(e) {
+    e.stopPropagation();
+    const chair = e.target;
+    chair.classList.toggle('selected');
+
+    const tableContainer = chair.closest('.table-container');
+    const chairs = tableContainer.querySelectorAll('.chair');
+    const table = tableContainer.querySelector('.table');
+
+    if ([...chairs].every(c => c.classList.contains('selected'))) {
+      table.classList.add('selected');
+    } else {
+      table.classList.remove('selected');
+    }
+  }
+
+  function tableClick(e) {
+    const table = e.currentTarget;
+    table.classList.toggle('selected');
+
+    const tableContainer = table.closest('.table-container');
+    const chairs = tableContainer.querySelectorAll('.chair');
+
+    chairs.forEach(chair => {
+      chair.classList.toggle('selected', table.classList.contains('selected'));
+    });
+  }
+</script>
+
+</body>
+</html>
