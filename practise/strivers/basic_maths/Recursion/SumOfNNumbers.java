@@ -1,14 +1,13 @@
 package Recursion;
 
 public class SumOfNNumbers {
-    public static void sum(int i, int sum){
-        if(i < 1){
-            System.out.println(sum);
-            return;
+    public static int sum(int i){
+        if(i == 0){
+            return 0;
         }
-        sum(i-1, sum+i);
+        return i + sum(i-1);
     }
     public static void main(String[] args) {
-        sum(10,0);
+       System.out.println(sum(10));
     }
 }
