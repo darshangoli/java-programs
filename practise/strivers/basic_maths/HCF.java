@@ -1,7 +1,3 @@
-import java.util.Collections;
-import java.util.Set;
-import java.util.TreeSet;
-
 public class HCF {
     public int findHcf(int num1, int num2){
         // Set<Integer> num1Set = new TreeSet<>();
