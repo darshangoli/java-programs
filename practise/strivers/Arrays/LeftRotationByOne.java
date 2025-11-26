@@ -1,4 +1,4 @@
-package strivers.Arrays;
+
 
 public class LeftRotationByOne {
     int[] leftByOne(int[] arr){
