@@ -1,4 +1,3 @@
-package strivers.Arrays;
 
 public class MoveAllZerosToEnd {
     int[] move(int[] arr){
