@@ -18,7 +18,7 @@ public class UnionOfSortedOptimal {
                 list.add(arr1[i]);
                 i++;
             }
-            else if(arr2[j] < arr1[1]){
+            else if(arr2[j] < arr1[i]){
                 list.add(arr2[j]);
                 j++;
             }
