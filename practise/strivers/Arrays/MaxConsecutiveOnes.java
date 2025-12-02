@@ -3,13 +3,22 @@ import java.util.Map;
 
 public class MaxConsecutiveOnes {
     int maxConsOne(int[] arr){
-        Map<Integer, Integer> map = new HashMap<>();
-        int i = 0;
-        while(i < arr.length - 1){
-            while(arr[i] == 1){
-                map.put(arr[i], map.getOrDefault(arr[i], 0)+1);
-                
+        int count = 0;
+        int max = 0;
+        for(int i=0; i<arr.length; i++){
+            if(arr[i] == 1){
+                count++;
+                max = Math.max(max, count);
+            }
+            else{
+                count = 0;
             }
         }
+        return max;
+    }
+    public static void main(String[] args) {
+        MaxConsecutiveOnes obj = new MaxConsecutiveOnes();
+        int[] arr = {2,1,1,1,5,4,1,1,1,4,1,1,8};
+        System.out.println(obj.maxConsOne(arr));
     }
 }
