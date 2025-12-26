@@ -2,8 +2,8 @@ package charan;
 
 public class Teacher {
 
-    Student student;
-    Teacher(Student student){
+    Student1 student;
+    Teacher(Student1 student){
         this.student = student;
     }
 
@@ -26,7 +26,7 @@ public class Teacher {
     }
 
     public static void main(String[] args) {
-        Student student = new Student();
+        Student1 student = new Student1();
         Teacher obj = new Teacher(student);
         obj.registerStudent();
         System.out.println(obj.retreiveStudent());
