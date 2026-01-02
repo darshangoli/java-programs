@@ -10,7 +10,7 @@ public class ValidParanthesis{
                 stack.push(ch);
             }
             else{
-                if(!stack.isEmpty()){
+                if(stack.isEmpty()){
                     return false;
                 }
                 else if(ch == ']' && stack.peek() == '[' ||
@@ -27,7 +27,7 @@ public class ValidParanthesis{
         return stack.isEmpty();
     }
     public static void main(String[] args) {
-        String str = "[(){]}]{}";
+        String str = "[()]{}";
         System.out.println(checkIfValid(str));
     }
 }
