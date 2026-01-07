@@ -17,7 +17,7 @@ public class SumOfTwoEqualTarget {
         
         return result;
     }
-    public static void main(String[] args) {
+    public static void main(String[] args) { 
         SumOfTwoEqualTarget obj = new SumOfTwoEqualTarget();
         int[] arr = {1,2,3,4,5,6,7,8,9,0};
         int target = 9;
