@@ -6,7 +6,7 @@ public class ValidParanthesis{
     static boolean checkIfValid(String str){
         Stack<Character> stack = new Stack<>();
         for(char ch : str.toCharArray()){
-            if(ch == '[' || ch == '{' || ch == '('){
+            if(ch == '[' || ch == '{' || ch == '('){ 
                 stack.push(ch);
             }
             else{
