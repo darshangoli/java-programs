@@ -1,4 +1,4 @@
-package Daily_Code.strivers.stack;
+﻿package Daily_Code.strivers.stack;
 
 import java.util.Stack;
 
@@ -31,3 +31,5 @@ public class ValidParanthesis{
         System.out.println(checkIfValid(str));
     }
 }
+
+

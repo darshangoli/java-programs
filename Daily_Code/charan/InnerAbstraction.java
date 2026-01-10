@@ -1,6 +1,9 @@
-package charan;
+﻿package Daily_Code.charan;
 
 interface InnerAbstraction {
     public int sub();
     public int sub(int a, int b);
 }
+
+
+

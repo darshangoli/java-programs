@@ -1,3 +1,4 @@
+﻿package Daily_Code.strivers.Arrays;
 
 public class MoveAllZerosToEnd {
     int[] move(int[] arr){
@@ -20,3 +21,6 @@ public class MoveAllZerosToEnd {
         }
     }
 }
+
+
+

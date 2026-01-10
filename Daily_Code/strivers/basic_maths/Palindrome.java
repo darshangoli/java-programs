@@ -1,3 +1,5 @@
+﻿package Daily_Code.strivers.basic_maths;
+
 public class Palindrome {
     public static void main(String[] args) {
         int num = 123433321;
@@ -16,3 +18,6 @@ public class Palindrome {
         }
     }
 }
+
+
+

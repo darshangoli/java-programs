@@ -1,4 +1,4 @@
-package ExceptionHandling;
+﻿package Daily_Code.ExceptionHandling;
 
 class GenderException extends Exception{
     GenderException(String message){
@@ -26,3 +26,6 @@ public class CustomException2 {
         }
     }
 }
+
+
+

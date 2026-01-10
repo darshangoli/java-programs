@@ -1,4 +1,4 @@
-package charan;
+﻿package Daily_Code.charan;
 
 public class SmalletAndLargestInArray {
     int[] arr;
@@ -30,3 +30,6 @@ public class SmalletAndLargestInArray {
         System.out.println(obj.largest());
     }
 }
+
+
+

@@ -1,3 +1,5 @@
+﻿package Daily_Code.interview_prep;
+
 public class CountVowelsAndConsonents {
     void VowelsAndConsonents(String str){
        
@@ -8,3 +10,6 @@ public class CountVowelsAndConsonents {
         obj.VowelsAndConsonents(str);
     }
 }
+
+
+

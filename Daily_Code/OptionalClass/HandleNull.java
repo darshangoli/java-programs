@@ -1,4 +1,4 @@
-package OptionalClass;
+﻿package Daily_Code.OptionalClass;
 
 import java.util.Optional;
 
@@ -9,3 +9,6 @@ public class HandleNull {
         System.out.println(opt.orElse("str"));
     }
 }
+
+
+

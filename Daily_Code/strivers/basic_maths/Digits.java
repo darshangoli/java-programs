@@ -1,3 +1,4 @@
+﻿package Daily_Code.strivers.basic_maths;
 
 public class Digits {
     public static void main(String[] args) {
@@ -12,3 +13,6 @@ public class Digits {
         System.out.println("count: "+count);
     }
 }
+
+
+

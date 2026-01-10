@@ -1,4 +1,4 @@
-package DesignPatterns;
+﻿package Daily_Code.DesignPatterns;
 
 interface InnerPrototype {
     void shape();    
@@ -38,3 +38,6 @@ public class Prototype {
         ip.shape();
     }
 }
+
+
+

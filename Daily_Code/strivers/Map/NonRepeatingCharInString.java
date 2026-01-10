@@ -1,4 +1,4 @@
-package strivers.Map;
+﻿package Daily_Code.strivers.Map;
 
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
@@ -25,3 +25,6 @@ public class NonRepeatingCharInString {
         System.out.println(obj.find(str));
     }
 }
+
+
+

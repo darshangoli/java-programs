@@ -1,3 +1,5 @@
+﻿package Daily_Code.strivers.Arrays;
+
 public class SetMatrixRowsColumnsZeroOptimal {
     public static int[][] set(int[][] arr){
         int n = arr.length;
@@ -41,3 +43,6 @@ public class SetMatrixRowsColumnsZeroOptimal {
         }
     }
 }
+
+
+

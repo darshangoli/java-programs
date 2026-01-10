@@ -1,4 +1,4 @@
-package Daily_Code.LeetCodeEasyProblems;
+﻿package Daily_Code.LeetCodeEasyProblems;
 
 public class PalindromeNumbers {
     boolean palindrome(int num){
@@ -13,3 +13,6 @@ public class PalindromeNumbers {
     }
     
 }
+
+
+

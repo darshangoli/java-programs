@@ -1,3 +1,5 @@
+﻿package Daily_Code.strivers.Arrays;
+
 public class MissingNumber {
     void missing(int[] arr){
         boolean found = false;
@@ -21,3 +23,6 @@ public class MissingNumber {
         obj.missing(arr);
     }
 }
+
+
+

@@ -1,3 +1,5 @@
+﻿package Daily_Code.interview_prep;
+
 import java.util.Scanner;
 
 public class CountIntInString {
@@ -30,3 +32,6 @@ public class CountIntInString {
         System.out.println(obj.easyCountInString(str));
     }
 }
+
+
+

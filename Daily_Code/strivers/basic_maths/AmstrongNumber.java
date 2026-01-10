@@ -1,3 +1,5 @@
+﻿package Daily_Code.strivers.basic_maths;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -22,3 +24,6 @@ public class AmstrongNumber {
         System.out.println(isAmstrong(num));
     }
 }
+
+
+

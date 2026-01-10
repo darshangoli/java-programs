@@ -1,4 +1,4 @@
-package java8.streams;
+﻿package Daily_Code.java8.streams;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -15,3 +15,6 @@ public class CountElements {
         System.out.println(obj.countElements(list));
     }
 }
+
+
+

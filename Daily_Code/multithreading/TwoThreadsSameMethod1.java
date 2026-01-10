@@ -1,4 +1,4 @@
-package multithreading;
+﻿package Daily_Code.multithreading;
 
 public class TwoThreadsSameMethod1{
     int count;
@@ -27,3 +27,6 @@ public class TwoThreadsSameMethod1{
         System.out.println(obj.count);
     }
 }
+
+
+

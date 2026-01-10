@@ -1,3 +1,5 @@
+﻿package Daily_Code.interview_prep;
+
 public class RmvDupsFrmSrtdArr2 {
     void removeDups(int[] sortedArray){
         int[] resultArray = new int[sortedArray.length];
@@ -21,3 +23,6 @@ public class RmvDupsFrmSrtdArr2 {
         obj.removeDups(sortArr);
     }
 }
+
+
+

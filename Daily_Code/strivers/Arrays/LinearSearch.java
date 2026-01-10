@@ -1,3 +1,5 @@
+﻿package Daily_Code.strivers.Arrays;
+
 public class LinearSearch{
     static int findPosition(int[] arr, int target){
         for(int i=0; i<arr.length; i++){
@@ -13,3 +15,6 @@ public class LinearSearch{
         System.out.print(findPosition(arr, target));
     }
 }
+
+
+

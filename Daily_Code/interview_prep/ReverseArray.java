@@ -1,3 +1,5 @@
+﻿package Daily_Code.interview_prep;
+
 public class ReverseArray {
     void reverseArray(int[] arr){
         for(int i=arr.length-1; i>=0; i--){
@@ -10,3 +12,6 @@ public class ReverseArray {
         obj.reverseArray(nums);
     }
 }
+
+
+

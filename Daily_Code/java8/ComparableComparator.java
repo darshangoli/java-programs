@@ -1,4 +1,4 @@
-package java8;
+﻿package Daily_Code.java8;
 
 import java.util.Arrays;
 import java.util.Comparator;
@@ -50,3 +50,6 @@ public class ComparableComparator {
         }
     }
 }
+
+
+

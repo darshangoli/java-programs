@@ -1,4 +1,4 @@
-package Daily_Code.LeetCodeEasyProblems;
+﻿package Daily_Code.LeetCodeEasyProblems;
 
 import java.util.Arrays;
 import java.util.logging.Logger;
@@ -30,3 +30,6 @@ public class SearchInsertPosition {
         System.out.println("result: "+obj.searchOrInsert(num, 4));
     }
 }
+
+
+

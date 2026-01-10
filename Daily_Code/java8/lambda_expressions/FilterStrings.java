@@ -1,4 +1,4 @@
-package java8.lambda_expressions;
+﻿package Daily_Code.java8.lambda_expressions;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -24,3 +24,6 @@ public class FilterStrings {
         System.out.println(filter.filterStringsStartsWithA(strings));
     }
 }
+
+
+

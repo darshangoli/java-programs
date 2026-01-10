@@ -1,4 +1,4 @@
-package strivers.patterns;
+﻿package Daily_Code.strivers.patterns;
 
 public class MirrorPyramidTriangle {
     public static void main(String[] args) {
@@ -23,3 +23,6 @@ public class MirrorPyramidTriangle {
         }
     }
 }
+
+
+

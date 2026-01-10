@@ -1,4 +1,4 @@
-package charan;
+﻿package Daily_Code.charan;
 
 class Student{
     int id;
@@ -40,3 +40,6 @@ public class PassByReferencePakka {
         System.out.println(s2.getId()+" "+s2.getName()+" "+s2.getDept());
     }
 }
+
+
+

@@ -1,3 +1,5 @@
+﻿package Daily_Code.strivers.basic_maths;
+
 public class PrintDivisors {
     public static void main(String[] args) {
         int num = 111;
@@ -8,3 +10,6 @@ public class PrintDivisors {
         }
     }
 }
+
+
+

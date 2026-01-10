@@ -1,3 +1,5 @@
+﻿package Daily_Code.strivers.Arrays;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -15,4 +17,7 @@ public class ConvertZerosToTens {
         System.out.println(convert(arr));
     }
 } 
+
+
+
 

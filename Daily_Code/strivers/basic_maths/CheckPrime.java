@@ -1,3 +1,5 @@
+﻿package Daily_Code.strivers.basic_maths;
+
 public class CheckPrime {
     public boolean checkForPrime(int num) {
         int count = 0;
@@ -17,3 +19,6 @@ public class CheckPrime {
         System.out.println(obj.checkForPrime(113));
     }
 }
+
+
+

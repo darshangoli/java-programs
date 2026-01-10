@@ -1,4 +1,4 @@
-package strivers.String;
+﻿package Daily_Code.strivers.String;
 
 public class RemoveWhiteSpacesInString {
     public String removeSpaces(String str) {
@@ -18,3 +18,6 @@ public class RemoveWhiteSpacesInString {
         System.out.println(obj.removeSpaces(str));
     }
 }
+
+
+

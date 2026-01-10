@@ -1,3 +1,5 @@
+﻿package Daily_Code.strivers.Arrays;
+
 public class SetMatrixRowsColumnsZero {
     static int rows; 
     static int columns;
@@ -52,3 +54,6 @@ public class SetMatrixRowsColumnsZero {
         }
     }
 }
+
+
+

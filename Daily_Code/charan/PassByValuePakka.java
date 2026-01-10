@@ -1,4 +1,4 @@
-package charan;
+﻿package Daily_Code.charan;
 
 public class PassByValuePakka {
     public static void main(String[] args) {
@@ -9,3 +9,6 @@ public class PassByValuePakka {
         System.out.println(b);
     }
 }
+
+
+

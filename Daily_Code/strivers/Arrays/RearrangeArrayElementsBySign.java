@@ -1,3 +1,5 @@
+﻿package Daily_Code.strivers.Arrays;
+
 public class RearrangeArrayElementsBySign {
     int[] rearrange(int[] arr){
         int[] result = new int[arr.length];
@@ -24,3 +26,6 @@ public class RearrangeArrayElementsBySign {
         }
     }
 }
+
+
+

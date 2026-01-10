@@ -1,3 +1,5 @@
+﻿package Daily_Code.strivers.basic_maths;
+
 public class HCF {
     public int findHcf(int num1, int num2){
         // Set<Integer> num1Set = new TreeSet<>();
@@ -28,3 +30,6 @@ public class HCF {
         System.out.println(obj.findHcf(11, 110));
     }
 }
+
+
+

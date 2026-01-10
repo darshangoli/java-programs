@@ -1,3 +1,5 @@
+﻿package Daily_Code.strivers.sorting;
+
 public class SelectionSort{
     public void sorting(int[] arr){
         for(int i=0; i<arr.length; i++){
@@ -21,3 +23,5 @@ public class SelectionSort{
         obj.sorting(arr);
     }
 }
+
+

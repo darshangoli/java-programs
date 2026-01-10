@@ -1,4 +1,4 @@
-package strivers.stack;
+﻿package Daily_Code.strivers.stack;
 
 import java.util.Scanner;
 
@@ -14,3 +14,6 @@ public class EvenOdd {
         }
     }
 }
+
+
+

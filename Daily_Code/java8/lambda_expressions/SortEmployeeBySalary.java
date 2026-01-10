@@ -1,4 +1,4 @@
-package java8.lambda_expressions;
+﻿package Daily_Code.java8.lambda_expressions;
 
 import java.util.Arrays;
 import java.util.Comparator;
@@ -54,3 +54,6 @@ public class SortEmployeeBySalary {
                 "ID: " + employee.getId() + ", Name: " + employee.getName() + ", Salary: " + employee.getSalary()));
     }
 }
+
+
+

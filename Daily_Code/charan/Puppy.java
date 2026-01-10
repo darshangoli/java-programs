@@ -1,5 +1,4 @@
-package charan;
-
+﻿package Daily_Code.charan;
 
 public class Puppy extends Dog{
     public void bark(){
@@ -11,3 +10,6 @@ public class Puppy extends Dog{
         obj.bark();
     }
 }
+
+
+

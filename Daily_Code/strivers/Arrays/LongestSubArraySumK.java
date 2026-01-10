@@ -1,3 +1,5 @@
+﻿package Daily_Code.strivers.Arrays;
+
 public class LongestSubArraySumK {
     int longestSubArray(int[] arr, int num){
         int len = 0;
@@ -19,3 +21,6 @@ public class LongestSubArraySumK {
         System.out.println(obj.longestSubArray(arr, num));
     }
 }
+
+
+

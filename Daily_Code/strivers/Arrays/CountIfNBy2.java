@@ -1,3 +1,5 @@
+﻿package Daily_Code.strivers.Arrays;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -24,3 +26,6 @@ public class CountIfNBy2 {
         System.out.println(result);
     }
 }
+
+
+

@@ -1,3 +1,5 @@
+﻿package Daily_Code.interview_prep;
+
 public class SmallestLargestInArray {
     int[] arr;
     public SmallestLargestInArray(int[] arr){
@@ -29,3 +31,6 @@ public class SmallestLargestInArray {
         System.out.println("Largest Number : "+obj.largest());
     }
 }
+
+
+

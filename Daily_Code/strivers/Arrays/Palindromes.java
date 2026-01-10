@@ -1,3 +1,5 @@
+﻿package Daily_Code.strivers.Arrays;
+
 import java.util.Arrays;
 
 public class Palindromes {
@@ -26,3 +28,6 @@ public class Palindromes {
         obj.palindrome(str);
     }
 }
+
+
+

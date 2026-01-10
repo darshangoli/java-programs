@@ -1,3 +1,5 @@
+﻿package Daily_Code.interview_prep;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -16,3 +18,6 @@ public class OccuranceOfCharacterInString {
         System.out.println(obj.occurance(str));
     }
 }
+
+
+

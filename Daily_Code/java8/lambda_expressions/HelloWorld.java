@@ -1,4 +1,4 @@
-package java8.lambda_expressions;
+﻿package Daily_Code.java8.lambda_expressions;
 
 @FunctionalInterface
 interface InnerHelloWorld {
@@ -10,3 +10,6 @@ public class HelloWorld {
         darshan.print("Darshan");
     }
 }
+
+
+

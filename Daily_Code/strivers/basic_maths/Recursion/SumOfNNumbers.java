@@ -1,4 +1,4 @@
-package strivers.basic_maths.Recursion;
+﻿package Daily_Code.strivers.basic_maths.Recursion;
 
 public class SumOfNNumbers {
     public static int sum(int i){
@@ -11,3 +11,6 @@ public class SumOfNNumbers {
        System.out.println(sum(10));
     }
 }
+
+
+

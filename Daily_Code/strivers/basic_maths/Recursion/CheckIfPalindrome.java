@@ -1,4 +1,4 @@
-package strivers.basic_maths.Recursion;
+﻿package Daily_Code.strivers.basic_maths.Recursion;
 
 public class CheckIfPalindrome {
     public static boolean palindrome(String str, int i, int r){
@@ -17,3 +17,6 @@ public class CheckIfPalindrome {
         System.out.println(palindrome(str, l, r));
     }
 }
+
+
+

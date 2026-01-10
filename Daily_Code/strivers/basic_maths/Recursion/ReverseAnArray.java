@@ -1,4 +1,4 @@
-package strivers.basic_maths.Recursion;
+﻿package Daily_Code.strivers.basic_maths.Recursion;
 
 public class ReverseAnArray {
     public static void reverse(int[] arr, int l, int r){
@@ -20,3 +20,6 @@ public class ReverseAnArray {
         }
     }
 }
+
+
+

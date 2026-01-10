@@ -1,3 +1,5 @@
+﻿package Daily_Code.strivers.Arrays;
+
 public class LongestConsecutiveSequence {
     public static int sequence(int[] arr){
         if(arr.length == 0){
@@ -21,3 +23,6 @@ public class LongestConsecutiveSequence {
         System.out.println(sequence(arr));
     }
 }
+
+
+

@@ -1,4 +1,4 @@
-package java8.lambda_expressions;
+﻿package Daily_Code.java8.lambda_expressions;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -25,3 +25,5 @@ public class FindStringLengths {
         System.out.println(obj.findLengths(strings));
     }
 }
+
+

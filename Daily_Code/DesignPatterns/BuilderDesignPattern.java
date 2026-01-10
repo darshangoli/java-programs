@@ -1,4 +1,4 @@
-package DesignPatterns;
+﻿package Daily_Code.DesignPatterns;
 
 class Student{
     int id;
@@ -64,3 +64,6 @@ public class BuilderDesignPattern {
         System.out.println(student);
     }
 }
+
+
+

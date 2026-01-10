@@ -1,3 +1,5 @@
+﻿package Daily_Code.strivers.Arrays;
+
 public class MajorityElementFinderNBy2 {
 
     public int majorityElement(int[] nums) {
@@ -35,3 +37,6 @@ public class MajorityElementFinderNBy2 {
         System.out.println(finder.majorityElement(arr)); // Output: 2
     }
 }
+
+
+

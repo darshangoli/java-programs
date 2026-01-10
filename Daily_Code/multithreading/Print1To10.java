@@ -1,4 +1,4 @@
-package multithreading;
+﻿package Daily_Code.multithreading;
 
 public class Print1To10 {
     synchronized public static void print1to10(){
@@ -23,3 +23,6 @@ public class Print1To10 {
         t2.start();
     }
 }
+
+
+

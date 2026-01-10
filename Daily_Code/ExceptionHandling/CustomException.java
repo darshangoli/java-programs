@@ -1,4 +1,4 @@
-package ExceptionHandling;
+﻿package Daily_Code.ExceptionHandling;
 
 class AgeException extends Exception{
     AgeException(String message){
@@ -26,3 +26,6 @@ public class CustomException {
         }
     }
 }
+
+
+

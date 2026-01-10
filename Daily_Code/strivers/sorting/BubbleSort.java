@@ -1,3 +1,5 @@
+﻿package Daily_Code.strivers.sorting;
+
 public class BubbleSort {
     void bubbleSort(int[] arr){
         for(int i=0; i<arr.length-1; i++){
@@ -19,3 +21,6 @@ public class BubbleSort {
         obj.bubbleSort(arr);
     }
 }
+
+
+

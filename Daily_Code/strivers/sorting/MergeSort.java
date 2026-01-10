@@ -1,3 +1,5 @@
+﻿package Daily_Code.strivers.sorting;
+
 public class MergeSort {
     public void mergeSort(int[] arr, int low, int high){
         if(low == high){
@@ -44,3 +46,6 @@ public class MergeSort {
         }
     }
 }
+
+
+

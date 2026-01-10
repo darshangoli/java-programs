@@ -1,3 +1,5 @@
+﻿package Daily_Code.strivers.Arrays;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -28,3 +30,6 @@ public class MajorityElementsGreaterThanNby3Times {
         System.out.println(findMajority(arr));
     }
 }
+
+
+

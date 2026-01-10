@@ -1,4 +1,4 @@
-package java8.streams;
+﻿package Daily_Code.java8.streams;
 
 import java.util.Arrays;
 import java.util.List;
@@ -13,3 +13,6 @@ public class GreaterThan10 {
         System.out.println(ans);
     }
 }
+
+
+

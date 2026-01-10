@@ -1,4 +1,4 @@
-package strivers.patterns;
+﻿package Daily_Code.strivers.patterns;
 
 public class RightAngleTriangle {
 
@@ -100,3 +100,6 @@ public class RightAngleTriangle {
         obj.rightAngleBinary(rows);
     }
 }
+
+
+

@@ -1,3 +1,5 @@
+﻿package Daily_Code.interview_prep;
+
 public class RmvDupsFrmSrtdArr {
     void removeDups(int[] sortArr){
         int[] anoArr = new int[sortArr.length];
@@ -18,3 +20,6 @@ public class RmvDupsFrmSrtdArr {
         obj.removeDups(sortArr);
     }
 }
+
+
+

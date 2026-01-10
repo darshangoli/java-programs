@@ -1,4 +1,4 @@
-package strivers.basic_maths.Recursion;
+﻿package Daily_Code.strivers.basic_maths.Recursion;
 
 public class NthFibonacci {
     public static int fibonacci(int n){
@@ -15,3 +15,6 @@ public class NthFibonacci {
         
     }
 }
+
+
+

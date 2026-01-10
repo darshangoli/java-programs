@@ -1,4 +1,4 @@
-package java8.lambda_expressions;
+﻿package Daily_Code.java8.lambda_expressions;
 
 import java.util.Arrays;
 import java.util.List;
@@ -10,3 +10,6 @@ public class SumOfAllElementsInList {
         System.out.println(result);
     }
 }
+
+
+

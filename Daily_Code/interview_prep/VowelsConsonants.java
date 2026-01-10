@@ -1,3 +1,5 @@
+﻿package Daily_Code.interview_prep;
+
 public class VowelsConsonants {
     public String str;
     char[] vowels = {'a','e','i','o','u'};
@@ -29,3 +31,6 @@ public class VowelsConsonants {
         System.out.println("Consonants in String "+str+" are "+obj.countConsonants());
     }
 }
+
+
+

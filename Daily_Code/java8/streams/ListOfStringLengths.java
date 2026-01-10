@@ -1,4 +1,4 @@
-package java8.streams;
+﻿package Daily_Code.java8.streams;
 
 import java.util.Arrays;
 import java.util.List;
@@ -10,3 +10,6 @@ public class ListOfStringLengths {
         System.out.println(ans);
     }
 }
+
+
+

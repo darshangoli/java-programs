@@ -1,3 +1,5 @@
+﻿package Daily_Code.interview_prep;
+
 public class Factorial {
     public static int findFactorial(int num){
         if(num == 0){
@@ -9,3 +11,6 @@ public class Factorial {
         System.out.println(findFactorial(5));
     }
 }
+
+
+

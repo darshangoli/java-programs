@@ -1,3 +1,5 @@
+﻿package Daily_Code.strivers.Arrays;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -22,3 +24,6 @@ public class MaxConsecutiveOnes {
         System.out.println(obj.maxConsOne(arr));
     }
 }
+
+
+

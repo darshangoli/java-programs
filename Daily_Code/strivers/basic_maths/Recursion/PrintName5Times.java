@@ -1,4 +1,4 @@
-package strivers.basic_maths.Recursion;
+﻿package Daily_Code.strivers.basic_maths.Recursion;
 
 public class PrintName5Times {
     static void printName(int i, int n){
@@ -12,3 +12,6 @@ public class PrintName5Times {
         printName(1, 5);
     }
 }
+
+
+

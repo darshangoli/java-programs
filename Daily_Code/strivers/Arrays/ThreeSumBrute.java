@@ -1,3 +1,5 @@
+﻿package Daily_Code.strivers.Arrays;
+
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashSet;
@@ -26,3 +28,6 @@ public class ThreeSumBrute {
         System.out.println(triplets(arr, target));
     }
 }
+
+
+

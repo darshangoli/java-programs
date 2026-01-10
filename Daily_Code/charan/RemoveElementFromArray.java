@@ -1,4 +1,4 @@
-package charan;
+﻿package Daily_Code.charan;
 
 public class RemoveElementFromArray {
     static void remove(int[] arr, int num){
@@ -17,3 +17,6 @@ public class RemoveElementFromArray {
         remove(arr, 4);
     }
 }
+
+
+

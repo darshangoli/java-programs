@@ -1,3 +1,5 @@
+﻿package Daily_Code.interview_prep;
+
 public class SecondLargest2 {
     int findSecondLarge(int[] nums){
         int max = Integer.MIN_VALUE;
@@ -19,3 +21,6 @@ public class SecondLargest2 {
         System.out.println(obj.findSecondLarge(nums));
     }
 }
+
+
+

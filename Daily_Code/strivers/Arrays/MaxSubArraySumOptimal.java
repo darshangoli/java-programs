@@ -1,3 +1,5 @@
+﻿package Daily_Code.strivers.Arrays;
+
 public class MaxSubArraySumOptimal {
     int[] maxSum(int[] arr){
         int sum = 0;
@@ -37,3 +39,6 @@ public class MaxSubArraySumOptimal {
         }
     }
 }
+
+
+

@@ -1,3 +1,5 @@
+﻿package Daily_Code.strivers.basic_maths;
+
 import java.util.Scanner;
 
 public class FrequencyHashing {
@@ -28,3 +30,6 @@ public class FrequencyHashing {
         sc.close();
     }
 }
+
+
+

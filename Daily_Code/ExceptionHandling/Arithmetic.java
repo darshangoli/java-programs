@@ -1,4 +1,4 @@
-package ExceptionHandling;
+﻿package Daily_Code.ExceptionHandling;
 
 public class Arithmetic {
     public int divide(int a) throws ArithmeticException{
@@ -16,3 +16,6 @@ public class Arithmetic {
         }
     }
 }
+
+
+

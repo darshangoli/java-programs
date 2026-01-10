@@ -1,4 +1,4 @@
-package Daily_Code.LeetCodeEasyProblems;
+﻿package Daily_Code.LeetCodeEasyProblems;
 
 import java.util.Arrays;
 
@@ -24,3 +24,6 @@ public class LongestCommonPrefixInArray {
         System.out.println(findCommonPrefix(strs));
     }
 }
+
+
+
