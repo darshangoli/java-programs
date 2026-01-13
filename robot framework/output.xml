@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.11.3 on win32)" generated="2026-01-13T00:10:36.204604" rpa="false" schemaversion="5">
+<suite id="s1" name="Flipkart Login" source="e:\D\virtusa_bench\robot framework\flipkart_login.robot">
+<test id="s1-t1" name="Verify Flipkart Login Page Elements" line="10">
+<kw name="Open Browser To Flipkart">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-01-13T00:10:36.763680" level="INFO">Opening browser 'Chrome' to base url 'https://www.flipkart.com/'.</msg>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-01-13T00:10:36.763680" elapsed="7.876873"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-01-13T00:10:44.641559" elapsed="0.237736"/>
+</kw>
+<kw name="Set Selenium Speed" owner="SeleniumLibrary">
+<arg>0.5s</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" start="2026-01-13T00:10:44.880304" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2026-01-13T00:10:36.761683" elapsed="8.119613"/>
+</kw>
+<kw name="Handle Default Login Modal">
+<kw name="Run Keyword And Return Status" owner="BuiltIn">
+<kw name="Element Should Be Visible" owner="SeleniumLibrary">
+<msg time="2026-01-13T00:10:46.494699" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2026-01-13T00:10:46.495724" level="FAIL">Element with locator 'xpath=//input[@class='xkp9Hl ZvCKfk']' not found.</msg>
+<arg>xpath=//input[@class='xkp9Hl ZvCKfk']</arg>
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<status status="FAIL" start="2026-01-13T00:10:44.883217" elapsed="1.621671">Element with locator 'xpath=//input[@class='xkp9Hl ZvCKfk']' not found.</status>
+</kw>
+<msg time="2026-01-13T00:10:46.504888" level="INFO">${modal_visible} = False</msg>
+<var>${modal_visible}</var>
+<arg>Element Should Be Visible</arg>
+<arg>xpath=//input[@class='xkp9Hl ZvCKfk']</arg>
+<doc>Runs the specified keyword and returns the status as a Boolean value.</doc>
+<status status="PASS" start="2026-01-13T00:10:44.881296" elapsed="1.624622"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<kw name="Click Login Button">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-01-13T00:10:46.509462" level="INFO">Clicking element 'xpath=//a[contains(@href, '/account/login')]'.</msg>
+<arg>xpath=//a[contains(@href, '/account/login')]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-01-13T00:10:46.508463" elapsed="2.891920"/>
+</kw>
+<status status="PASS" start="2026-01-13T00:10:46.507463" elapsed="2.893607"/>
+</kw>
+<arg>not ${modal_visible}</arg>
+<arg>Click Login Button</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="PASS" start="2026-01-13T00:10:46.506446" elapsed="2.894624"/>
+</kw>
+<doc>Flipkart usually opens a login modal on valid landing. If not, we click Login.</doc>
+<status status="PASS" start="2026-01-13T00:10:44.881296" elapsed="4.519774"/>
+</kw>
+<kw name="Verify Login Elements">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>xpath=//input[@type='text']</arg>
+<arg>10s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-01-13T00:10:49.404807" elapsed="1.186414"/>
+</kw>
+<kw name="Element Should Be Visible" owner="SeleniumLibrary">
+<msg time="2026-01-13T00:10:51.639037" level="INFO">Element 'xpath=//button[text()='Request OTP']' is displayed.</msg>
+<arg>xpath=//button[text()='Request OTP']</arg>
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<status status="PASS" start="2026-01-13T00:10:50.591740" elapsed="1.047297"/>
+</kw>
+<status status="PASS" start="2026-01-13T00:10:49.403217" elapsed="2.235820"/>
+</kw>
+<kw name="Enter Credentials">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-01-13T00:10:51.641217" level="INFO">Typing text 'testuser@example.com' into text field 'xpath=//input[@type='text']'.</msg>
+<arg>xpath=//input[@type='text']</arg>
+<arg>${EMAIL}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-01-13T00:10:51.640231" elapsed="1.717783"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-01-13T00:10:53.359034" level="INFO">Credentials entered successfully. Ready to request OTP.</msg>
+<arg>Credentials entered successfully. Ready to request OTP.</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-01-13T00:10:53.358014" elapsed="0.001020"/>
+</kw>
+<status status="PASS" start="2026-01-13T00:10:51.639037" elapsed="1.719997"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-01-13T00:10:53.360032" elapsed="2.696066"/>
+</kw>
+<doc>Opens Flipkart and verifies the presence of login elements.</doc>
+<status status="PASS" start="2026-01-13T00:10:36.760678" elapsed="19.295420"/>
+</test>
+<status status="PASS" start="2026-01-13T00:10:36.206883" elapsed="19.851232"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Flipkart Login" id="s1" pass="1" fail="0" skip="0">Flipkart Login</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
