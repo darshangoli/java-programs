@@ -1,8 +1,5 @@
 package Daily_Code.LeetCodeEasyProblems;
 
-import java.util.LinkedHashMap;
-import java.util.Map;
-
 public class BestTimeToBuyAndSellStock {
     int maxProfit(int[] arr){
         int min = Integer.MAX_VALUE;
