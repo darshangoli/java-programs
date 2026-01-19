@@ -11,6 +11,8 @@ public class Passenger {
         this.age = age;
         this.seatNo = seatNo;
     }
+    public Passenger() {
+    }
     public int getId() {
         return id;
     }
